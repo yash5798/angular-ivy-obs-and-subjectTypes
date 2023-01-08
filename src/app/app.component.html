@@ -1,0 +1,35 @@
+<p>ROOT Component</p>
+
+<fieldset>
+  <legend>Observable</legend>
+  <button (click)="createObs()">create</button>
+  {{ obsData }} | {{ obsData1 }}
+</fieldset>
+<br />
+<fieldset>
+  <legend>Subject</legend>
+  <button (click)="createSub()">create</button>
+
+  {{ subData }} | {{ subData1 }}
+</fieldset>
+<br />
+<fieldset>
+  <legend>BehaviorSubject</legend>
+  <button (click)="createBSub()">create</button>
+
+  {{ bSubData }}
+</fieldset>
+<br />
+<fieldset>
+  <legend>ReplaySubject</legend>
+  <button (click)="createRSub()">create</button>
+
+  {{ rSubData }}
+</fieldset>
+<br />
+<fieldset>
+  <legend>AsyncSubject</legend>
+  <button (click)="createASub()">create</button>
+
+  {{ aSubData }}
+</fieldset>
